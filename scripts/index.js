@@ -1,6 +1,6 @@
 export class Repository {
   constructor() {
-    this.activities = [] // Inicialización del array
+    this.activities = []
     this.id = 1
   }
 
