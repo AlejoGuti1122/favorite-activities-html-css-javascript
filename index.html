@@ -15,8 +15,10 @@
       href="./styles/styles.css"
     />
     <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   </head>
   <body>
+    <canvas id="bg"></canvas>
     <main>
       <div>
         <h1 class="titulo">Alejandro Gutierrez</h1>
@@ -36,8 +38,8 @@
         </p>
       </div>
 
-      <div class="titulo3">
-        <p>Estas son mis tecnologias favoritas</p>
+      <div class="">
+        <h4 class="titulo3">Estas son mis tecnologias favoritas</h4>
       </div>
 
       <div class="container2">
@@ -80,12 +82,31 @@
         <input
           class="input3"
           type="text"
-          placeholder="Descripción de la actividad"
+          placeholder="Link de la imagen"
         />
       </div>
+      <div class="activities-container"></div>
+
       <div class="container4">
-        <button>Agregar Actividad</button>
+        <button id="addActivityBtn">Agregar Actividad</button>
       </div>
     </main>
+    <script
+      type="module"
+      src="./scripts/index.js"
+    ></script>
+
+    <script
+      type="module"
+      src="./scripts/dom.js"
+    ></script>
+    <script
+      type="module"
+      src="./scripts/main.js"
+    ></script>
+    <script
+      type="module"
+      src="./scripts/three.js"
+    ></script>
   </body>
 </html>
